@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    position: 0;
+}
+h1,span,h2{
+    font-family: sans-serif;
+    color: #191919;
+}
+body{
+    margin-top: 20px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: white;
+    font-size: 6vw;
+    width: 12vw;
+    height:12vw;
+    margin: 1px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #191919;
+    border-radius: 10px;
+    outline: none;
+}
+
+@keyframes motion1{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color:#ff2e63;
+        color: white;
+    }
+    100%{
+        background-color: white;
+        color: #ff2e63;
+    }
+}
+
+@keyframes motion2{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color:#08d9d6;
+        color: white;
+    }
+    100%{
+        background-color: white;
+        color: #08d9d6;
+    }
+}
+
+.x{
+    animation: motion1 1s normal;
+    color:#ff2e63;
+    text-transform: uppercase;
+}
+.o{
+    animation: motion2 1s normal;
+    color:#08d9d6;
+    text-transform: uppercase;
+}
